@@ -11058,9 +11058,9 @@ h5,
 }
 
 #sidebar ul li a:hover {
-    color: #fff;
-    background: #2f89fc;
-    border-bottom: 1px solid #2f89fc;
+    color: #2f89fc;
+    /* background: #2f89fc; */
+    /* border-bottom: 1px solid #2f89fc; */
 }
 
 #sidebar ul li.active>a {
