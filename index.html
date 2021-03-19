@@ -8,12 +8,15 @@
     <title>LTK</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/datatables.min.css" />
+    <script type="text/javascript" src="assets/js/datatables.min.js"></script>
+
 
 </head>
 
 <body>
     <div class="wrapper d-flex align-items-stretch">
-        <nav id="sidebar" class="shadow bg-white rounded">
+        <nav id="sidebar" class="shadow bg-white rounded d-flex flex-column">
             <div class="custom-menu">
                 <button type="button" id="sidebarCollapse" class="btn btn-primary">
                     <i class="fa fa-bars"></i>
@@ -25,20 +28,25 @@
                     <img src="assets/logo.svg" class="rounded mx-auto d-block" width="190" height="90">
                 </a>
             </h1>
-            <ul class="list-unstyled components mb-5">
+            <ul class="list-unstyled components d-flex flex-column mb-5 flex-grow-1">
                 <li>
-                    <a href="#"><span class="fa fa-home mr-3"></span> Dashboard</a>
+                    <a href="#"><span class="fas fa-home fa-2x mr-3"></span> Dashboard</a>
                 </li>
                 <li>
-                    <a href="#"><span class="fa fa-user mr-3"></span> Order</a>
+                    <a href="#"><span class="fas fa-user fa-2x mr-3"></span> Order</a>
                 </li>
                 <li>
-                    <a href="#"><span class="fa fa-sticky-note mr-3"></span> Product</a>
+                    <a href="#"><span class="fas fa-sticky-note fa-2x mr-3"></span> Product</a>
                 </li>
                 <li>
-                    <a href="#"><span class="fa fa-paper-plane mr-3"></span> Settings</a>
+                    <a href="#"><span class="fas fa-paper-plane fa-2x mr-3"></span> Settings</a>
+                </li>
+                <li class="mt-auto">
+                    <a href="#"><span class="fas fa-sign-out-alt fa-2x mr-3"></span> Logout</a>
                 </li>
             </ul>
+
+
         </nav>
 
         <div id="content" class="p-4 p-md-5 pt-5">
